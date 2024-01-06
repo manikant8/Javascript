@@ -30,5 +30,5 @@ let names = 'Manikant Sharma'
 var college = "IIT BBS"
 college = "IIT BBSR"
 // rollno = 1100410030 wrong assignment
-let state; //variable declared with any assignment is treated as "undefined"
+let state; //variable declared WITHOUT any assignment is treated as "undefined"
 console.table([rollno, names, college, state])

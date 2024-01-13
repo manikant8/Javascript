@@ -42,3 +42,21 @@ let f = "3g"
 console.log(Boolean(f))
 
 // many other conversions like string(), etc.
+
+/*--------------------operations & operators --------------------------- */
+
+console.log(2**3); //2^3
+
+let str1 = "hello"
+let str2 = "Manikant"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + 2);
+console.log(2 + 2 + "1");
+console.log(3 + 4  * 5 % 3); // (* = %)left associative > +
+
+let num1, num2, num3;
+num1 = num2 = num3 = 8 + 3;
+console.log([num1, num2, num3]);

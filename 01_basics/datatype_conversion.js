@@ -58,5 +58,5 @@ console.log(2 + 2 + "1");
 console.log(3 + 4  * 5 % 3); // (* = %)left associative > +
 
 let num1, num2, num3;
-num1 = num2 = num3 = 8 + 3;
+num1 = num2 = num3 = 8 + 3; //= is right associative
 console.log([num1, num2, num3]);

@@ -1,11 +1,14 @@
-let name = "Ashish Sharma"
-let rollNo = "23CS06013"
+const name = "Ashish Sharma"
+const rollNo = `23CS06013`
+let college = 'XYT'
+
+// " ". '', ``  //strings can be written using any of these.
 
 let name2 = name
-console.log("hello, my name is " +name+  " & my Roll no is " + rollNo)
+console.log("hello, my name is " +name+  " , my Roll no is " + rollNo+ " & my college is "+college)
 
-// string interpolation, ${} works as placeholder
-console.log(`hello, my name is ${name} & my Roll no is ${rollNo}`)
+// string interpolation, ${} works as. Only works with backticks(``)
+console.log(`hello, my name is ${name}, my Roll no is ${rollNo} & my college is ${college}`)
 console.log([name, name2]);
 name2 = "Manikant Sharma"
 console.log([name, name2]);

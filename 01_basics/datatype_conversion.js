@@ -5,11 +5,19 @@ let lexo = "45abc"
 console.log(typeof(score)) 
 console.log(typeof names)
 
+// == compaires only value === comapires value as well type
+// if(score === names){
+//     console.log("hello");
+// }
+// else{
+//     console.log("bye");
+// }
+
 let valueInNumber1 = Number(names)
 console.log(typeof(valueInNumber1))
 
 let valueInNumber2 = Number(lexo)
-
+console.log("**********"+typeof(lexo))
 if (typeof valueInNumber2 === 'number' && !isNaN(valueInNumber2)) {
     console.log("Yes, It is a number");
 } else {
@@ -20,7 +28,7 @@ if (typeof valueInNumber2 === 'number' && !isNaN(valueInNumber2)) {
 
 // string NaN
 let a = "Manikant"
-console.log(Number(a))
+// console.log(Number(a))
 
 // undefined NaN
 let b
@@ -54,9 +62,9 @@ console.log(str3);
 
 console.log("1" + 2);
 console.log(1 + 2);
-console.log(2 + 2 + "1");
+console.log(2 + 2 + "1"); //evaluation is from left to right
 console.log(3 + 4  * 5 % 3); // (* = %)left associative > +
 
 let num1, num2, num3;
-num1 = num2 = num3 = 8 + 3; //= is right associative
+num1 = num2 = num3 = 8 + 3; // = is right associative
 console.log([num1, num2, num3]);

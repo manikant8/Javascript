@@ -10,7 +10,7 @@ console.log(name.endsWith("a"))
 
 // slice(), it always slice from left to right direction. And so start must appear before end
 console.log(name.slice(2,5));
-console.log(name.slice(-6,7));
+console.log(name.slice(-4,-2));
 
 // trim()
 let str1 = "   sharma     "
